@@ -1,0 +1,49 @@
+# TMF Music
+
+2024-2025
+
+A full stack music sharing website
+
+TMF Music lets users sign up and log into a secure, authoritative backend server and upload, edit, share, and delete their music to the platform. TMF also allows users to create & edit playlists to organize their favorite tunes.
+
+Vue.js, Node.js, Firebase, GCP
+
+# Woodstock
+
+2023-2024
+
+A performant chess engine and AI opponent
+
+Woodstock is a chess engine and AI opponent built from the ground up in C++ and compiled to Web Assembly. Utilizing a variety of performance-focused techniques such as magic bitboards, iterative deepening, and alpha-beta pruning, Woodstock is a highly efficient and cunning adversary for all but the most skilled chess players.
+
+C++, Javascript, Emscripten
+
+# Yar
+
+2023
+
+A simple terminal text editor
+
+Yar is a simple terminal based utility written in C that lets users edit text files in a similar fashion to the iconic Vim. With support for syntax highlight and basic configuration like tabular customization and line numbers, its a minimal but working proof of concept for a handy terminal utility.
+
+C
+
+# Silva
+
+2022-2023
+
+A tiny multiplayer online web game
+
+Silva is a small-scale multiplayer online game (akin to an MMORPG) where players can create accounts and characters, joining virtual worlds to fight enemies or other players on an authoritative master server. From fighting powerful bosses to chatting and emoting while doing obstacle courses to facing other players head to head, Silva allows players to explore a tiny world with (or against) friends.
+
+Node.js, Firebase, Godot
+
+# Holly
+
+2022
+
+A full autonomous music remixer & video content generator
+
+Holly is a full automatic service that selects popular music, generates musical remixes with an accompanying stylized music video, and uploads them to social media. Following the "Slowed + Reverb" style, Holly makes use of several powerful tools like sox, soundstretch, and ffmpeg to filter and edit both audio and video inputs, generating video metadata to complete the finished upload. Almost 400 automatically generated videos later, Holly has accrued over 1,000 subscribers and over 1.9 million total views.
+
+Node.js, Python, Bash

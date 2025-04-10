@@ -1,0 +1,40 @@
+[
+   {
+      "title": "TMF Music",
+      "years": [2024, 2025],
+      "tagline": "A full stack music sharing and streaming platform",
+      "stack": ["Vue.js", "Node.js", "Firebase", "GCP"],
+      "images": ["tmf.webp"],
+      "description": "TMF Music is a full-featured music platform where users can securely sign up, log in, and manage their content through an authoritative backend and an intuitive, optimized frontend. Users can freely upload, edit, delete, and share music, customize their profile, organize tracks into playlists, and stream their favorite songs."
+   },
+   {
+      "title": "Woodstock",
+      "years": [2023, 2024],
+      "tagline": "A performant chess engine and AI opponent",
+      "stack": ["C++", "Javascript", "Emscripten"],
+      "images": [],
+      "description": "Woodstock is a chess engine and AI opponent built from the ground up in C++ and compiled to Web Assembly. With magic bitboards, iterative deepening, alpha-beta pruning, and more under the hood, it's a crafty opponent (save for experience chess masters)."
+   },
+   {
+      "title": "Yar",
+      "years": [2023],
+      "tagline": "A simple terminal text editor",
+      "stack": ["C"],
+      "description": "Yar is a lightweight terminal text editor written in pure C, inspired by Vim and the kilo project. With syntax highlighting, commands and text search, and basic customization like tab width or line numbers, Yar is a minimal yet functional proof of concept."
+   },
+   {
+      "title": "Silva",
+      "years": [2022, 2023],
+      "tagline": "A tiny multiplayer web game",
+      "stack": ["Node.js", "Firebase", "Godot"],
+      "images": ["tmf.webp"],
+      "description": "Silva is a small-scale multiplayer online game (akin to an MMORPG) where players can create accounts and characters, joining virtual worlds to fight enemies or other players on an authoritative master server. From fighting powerful bosses to chatting and emoting while doing obstacle courses to facing other players head to head, Silva allows players to explore a tiny world with (or against) friends."
+   },
+   {
+      "title": "Holly",
+      "years": [2022, 2023],
+      "tagline": "A fully autonomous music and video content generator",
+      "stack": ["Node.js", "Python", "Bash"],
+      "description": "Holly is a full automatic service that selects popular music, generates musical remixes with an accompanying stylized music video, and uploads them to social media. Following the \"Slowed + Reverb\" style, Holly makes use of several powerful tools like sox, soundstretch, and ffmpeg to filter and edit both audio and video inputs, generating video metadata to complete the finished upload. Almost 400 automatically generated videos later, Holly has accrued over 1,000 subscribers and over 1.9 million total views."
+   }
+]

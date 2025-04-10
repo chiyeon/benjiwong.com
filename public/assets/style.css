@@ -1,0 +1,39 @@
+body {
+   font-family: monospace;
+   margin: 0 1rem;
+}
+
+.splash {
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.project {
+   margin-bottom: 2rem;
+   padding: 1rem;
+   border: 1px solid #ccc;
+   border-radius: 2px;
+}
+
+.project h2 {
+   margin: 0;
+}
+
+.project .tagline {
+   font-weight: bold;
+   color: gray;
+
+   margin: 1rem 0;
+}
+
+.project img {
+   width: 100%;
+   border-radius: 4px;
+}
+
+.project .description {
+   margin-top: 0;
+}
