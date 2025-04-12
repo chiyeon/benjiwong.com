@@ -13,7 +13,7 @@
       "tagline": "A performant chess engine and AI opponent",
       "stack": ["C++", "Javascript", "Emscripten"],
       "images": [],
-      "description": "Woodstock is a chess engine and AI opponent built from the ground up in C++ and compiled to Web Assembly. With magic bitboards, iterative deepening, alpha-beta pruning, and more under the hood, it's a crafty opponent (save for experience chess masters)."
+      "description": "Woodstock is a chess engine and AI opponent built from the ground up in C++ and compiled to Web Assembly. With magic bitboards, iterative deepening, alpha-beta pruning and more under the hood, it's both a crafty opponent and quick thinker."
    },
    {
       "title": "Yar",
@@ -27,7 +27,7 @@
       "years": [2022, 2023],
       "tagline": "A tiny multiplayer web game",
       "stack": ["Node.js", "Firebase", "Godot"],
-      "images": ["tmf.webp"],
+      "images": ["silva.webp"],
       "description": "Silva is a small-scale multiplayer online game (akin to an MMORPG) where players can create accounts and characters, joining virtual worlds to fight enemies or other players on an authoritative master server. From fighting powerful bosses to chatting and emoting while doing obstacle courses to facing other players head to head, Silva allows players to explore a tiny world with (or against) friends."
    },
    {

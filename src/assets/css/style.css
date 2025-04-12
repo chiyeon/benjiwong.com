@@ -1,10 +1,50 @@
-body {
-   font-family: monospace;
-   margin: 0 1rem;
+:root {
+   --color-bg-1: #f2f0e9;
+   --color-fg-1: #15151f;
+   --color-fg-2: gray;
+   --color-links: #6e8e99;
+}
 
-   background-color: #f2f0e9;
-   color: #15151f;
-   color: #11111a;
+@font-face {
+   font-family: "neue haas";
+   src: url("../fonts/NeueHaasDisplayRoman.ttf");
+   font-weight: normal;
+}
+
+body {
+   font-family: "neue haas", sans-serif;
+
+   background-color: var(--color-bg-1);
+   color: var(--color-fg-1);
+
+   max-width: 1000px;
+   margin: auto;
+   padding: 0 1rem;
+}
+
+h1, h2, h3 {
+   font-weight: normal;
+   font-family: "neue haas", sans-serif;
+}
+
+h1 {
+   font-size: 2.5rem;
+}
+
+a {
+   color: var(--color-links);
+}
+
+p, a {
+   font-size: 1.2rem;
+}
+
+.title {
+   margin-top: 4rem;
+}
+
+.section {
+   margin-left: 1rem;
 }
 
 .splash {
@@ -13,11 +53,43 @@ body {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   text-align: center;
 }
+
+.splash .options {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+}
+
+.splash .options .link {
+   text-decoration: underline;
+}
+
+.about .title {
+   margin-top: 0;
+}
+
+.about .links a {
+   padding-right: 0.25rem;
+}
+
+.about .links a:hover {
+   opacity: 0.6;
+}
+
+.projects-list {
+   margin-left: 0;
+}
+
+.projects-list .title {
+   margin-left: 1rem;
+}
+
 
 .project {
    margin-bottom: 2rem;
-   padding: 1.5rem;
+   padding: 1rem;
    border: 1px solid #ccc;
    border-radius: 2px;
 }
@@ -28,8 +100,7 @@ body {
 }
 
 .project .tagline {
-   font-weight: bold;
-   color: gray;
+   color: var(--color-fg-2);
 
    margin: 1rem 0;
 }
