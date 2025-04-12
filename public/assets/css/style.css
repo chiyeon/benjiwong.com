@@ -11,6 +11,12 @@
    font-weight: normal;
 }
 
+@font-face {
+   font-family: "neue haas";
+   src: url("../fonts/NeueHaasDisplayMediu.ttf");
+   font-weight: bold;
+}
+
 body {
    font-family: "neue haas", sans-serif;
 
@@ -97,6 +103,7 @@ p, a {
 .project h2 {
    margin: 0;
    font-size: 1.75rem;
+   font-weight: bold;
 }
 
 .project .tagline {
