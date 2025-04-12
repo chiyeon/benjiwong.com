@@ -3,6 +3,8 @@
 .firebaserc
 firebase.json
 
+public/
+
 # Logs
 logs
 *.log
